@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Rye&display=swap');
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+.texts {
+    color: black;
+    font-family: 'Cinzel', serif;
+    font-family: 'Rye', cursive;
+}

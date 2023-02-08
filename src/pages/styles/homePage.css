@@ -1,0 +1,141 @@
+.text {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.me{
+    margin-left: 100px;
+}
+
+.slider {
+    display: flex;
+    width: 100%;
+    animation: ads 20s 2s infinite linear;
+}
+
+.slider img {
+    height: 250px;
+    width: 350px;
+    transition: all 0.15s ease;
+}
+
+@keyframes ads {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-150px*9));
+    }
+}
+
+.closeCokeAdButton {
+    font-size: 13px;
+    position: absolute;
+    bottom: 33.9%;
+    z-index: 1;
+    left: 15%;
+    border: none;
+}
+
+.infoCokeAdButton{
+    font-size: 13px;
+    position: absolute;
+    bottom:33.9%;
+    z-index: 1;
+    left: 13.6%;
+    border: none;
+}
+.coke {
+    position: absolute;
+    left: 0;
+    bottom: -6%;
+    box-shadow: -9px -8px 57px 18px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: -9px -8px 57px 18px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: -9px -8px 57px 18px rgba(0, 0, 0, 0.24);
+}
+
+.closeJordenAdButton{
+    font-size: 13px;
+    position: absolute;
+    bottom: 33.9%;
+    z-index: 1;
+    left: 83.7%;
+    border: none;
+}
+
+.infoJordenAdButton{
+    font-size: 13px;
+    position: absolute;
+    bottom:33.9%;
+    z-index: 1;
+    left: 85.3%;
+    border: none;
+}
+
+.jorden {
+    position: absolute;
+    right: 0;
+    bottom: -6%;
+    box-shadow: -9px -8px 57px 18px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: -9px -8px 57px 18px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: -9px -8px 57px 18px rgba(0, 0, 0, 0.24);
+}
+
+
+
+.closeWatchAdButton{
+    font-size: 13px;
+    position: absolute;
+    bottom: -12.1%;
+    z-index: 1;
+    left: 15%;
+    border: none;
+}
+
+.infoWatchAdButton{
+    font-size: 13px;
+    position: absolute;
+    bottom:-12.1%;
+    z-index: 1;
+    left: 13.6%;
+    border: none;
+}
+
+.watch {
+    position: absolute;
+    left: 0;
+    bottom: -52%;
+    box-shadow: -9px -8px 57px 18px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: -9px -8px 57px 18px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: -9px -8px 57px 18px rgba(0, 0, 0, 0.24);
+}
+
+
+.closeJwelleryAdButton{
+    font-size: 13px;
+    position: absolute;
+    bottom:-12%;
+    z-index: 1;
+    left: 83.6%;
+    border: none;
+}
+
+.infoJwelleryAdButton{
+    font-size: 13px;
+    position: absolute;
+    bottom:-12%;
+    z-index: 1;
+    left: 85.1%;
+    border: none;
+}
+
+.jwellery {
+    position: absolute;
+    right: 0;
+    bottom: -52%;
+    box-shadow: -9px -8px 57px 18px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: -9px -8px 57px 18px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: -9px -8px 57px 18px rgba(0, 0, 0, 0.24);
+}
